@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: configclient-produccion
+some:
+  value: valor del servidor en produccion modificado
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
